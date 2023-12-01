@@ -1,0 +1,66 @@
+<!-- 
+Alumno: Ana María Dávila Merino
+Fecha: 20-11-2023
+Módulo: LMSGI
+UD: 02
+Tarea evaluativa 02
+Descripción: página de inicio con información general y vinculos al resto de contenidos. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="diseño ecológico" content="mobiliario de diseño ecológico">
+        <meta name="keywords" content="ecológico, mobiliario, sostenible, reciclado">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Se incluyen link a la fuente, el normalize y los estilos-->
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/Monoton">
+        <link rel="stylesheet" href="img/favicon-16x16.png">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/estilos.css">
+    </head>
+    <!--Se estructura el cuerpo en tres bloques semanticos: header, main y footer-->
+    <body>
+        <!--El header contiene el título con logotipo y el nav con los enlaces-->
+        <header>
+            <img class="logotipo" src="img/logo.png" alt="logo"/>
+            <h1>Diseño Ecológico</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="html/noticias.html">noticias</a></li>
+                    <li><a href="html/mobiliario-sillas.html">mobiliario</a></li>
+                    <li><a href="html/contacto.html">contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--El main contiene un texto introductorio y un aside con enlaces al diferente mobiliario-->
+        <main>
+            <p class="texto">
+                 A medida que los seres humanos somos más y más conscientes de la huella que
+                dejamos en nuestro planeta, crece también nuestra necesidad de asegurar que
+                los productos que fabricamos y consumimos han reducido al mínimo su impacto 
+                ecológico.<br> Una solución simplista a los problemas que provoca el exceso de
+                consumo sería cesar la producción industrial, pero ello negaría uno de los
+                instintos más básicos: el de crear y diseñar, y disfrutar de la belleza del
+                buen diseño.<br> Para que no debamos sacrificar el buen diseño, cada vez más 
+                diseñadores se embarcan en la creación de productos que combinan
+                ética y estética. El diseño coherente con la sostenibilidad ha de convertirse
+                de forma permanente en parte de nuestras vidas.<br><br><i> Rebecca Proctor</i>
+            </p>
+            <aside class="contenedor">
+                <a class="contenedorIconos" href="html/mobiliario-sillas.html"><img src="img/asiento.png"alt="asientos"/></a>
+                <a class="contenedorIconos" href="html/mobiliario-mesas.html"><img src="img/mesa.png"alt="mesas"/></a>
+                <a class="contenedorIconos" href="html/mobiliario-almacenaje.html"><img src="img/armario.png"alt="almacenaje"/></a>
+                <a class="contenedorIconos" href="html/mobiliario-luminarias.html"><img src="img/lampara.png"alt="luminarias"/></a>
+            </aside>
+        </main>
+        <!--El footer contiene la leyenda de autor y derechos-->
+        <footer>
+            <p>
+                 Página web de fines educativos realizada por ADME.
+                Los derechos de las imágenes son reservados y pertenecen a sus autores.
+            </p>
+        </footer>
+    </body>
+</html>
